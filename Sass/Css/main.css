@@ -1,3 +1,25 @@
+@charset "UTF-8";
+/* classes de imagem */
+.i-sm {
+  height: 70px;
+}
+
+/* classes de centralização de imagens */
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+
+.playwrite-gb-j {
+  font-family: "Playwrite GB J", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
 header {
   background-color: #f79eb1;
   height: fit-content;

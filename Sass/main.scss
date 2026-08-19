@@ -1,3 +1,6 @@
+@use "Assetes.scss";
+@use "Fnts.scss";
+
 header {
 	background-color:#f79eb1;
 	height: fit-content;
@@ -24,6 +27,3 @@ footer {
 		height: fit-content;
 	}
 }
-
-@use "Assetes.scss";
-@use "Fnts.scss";
