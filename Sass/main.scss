@@ -1,0 +1,29 @@
+header {
+	background-color:#f79eb1;
+	height: fit-content;
+	padding: 15px 25px;
+}
+
+main {
+	padding: 10px;
+	height: fit-content;
+	min-height: 95vh;
+	background-color: #ae8fba;
+	background-attachment: fixed;
+}
+
+footer {
+	background-color: #f79eb1;
+	padding: 20px 50px;
+	height: fit-content;
+}
+
+@media (max-width: 800px) {
+	main {
+		min-height: 100vh;
+		height: fit-content;
+	}
+}
+
+@use "Assetes.scss";
+@use "Fnts.scss";
